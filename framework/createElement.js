@@ -6,4 +6,6 @@ const createElement = tagName => (strings, ...args) => ({
     )
 });
 
-export default createElement;
+export const div = createElement('div');
+export const p = createElement('p');
+export const h1 = createElement('h1');
